@@ -1,0 +1,16 @@
+Q.4 Create a class that accepts two numbers. Create another class that fetches the last digit of those two numbers. 
+Create a third class that multiplayer that last two digits.
+Solution :
+
+void LastDigit(string a,string b)
+{
+   int lastDig =(a.[a.length()-1]-'0') * (b[b.length()-1]-'0');
+   cout<<lastDig % 10;
+}
+
+int main()
+{
+  string a ="1234567891233" , b="1234567891233156";
+  LastDigit(a,b);
+  return 0;
+}
